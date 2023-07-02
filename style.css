@@ -1,0 +1,52 @@
+body {
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  background: #ebe7e7;
+  font-family: "roboto";
+}
+
+.topbar {
+  display: flex;
+  margin: 0.3rem;
+
+}
+
+.userpic {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  overflow: hidden;
+  position: relative;
+  
+}
+
+.container {
+  width: 640px;
+  background: white;
+  overflow: hidden;
+}
+
+.icons {
+  font-size: 25px;
+  display: flex;
+}
+
+.icons :last-child{
+  margin-left: auto;
+}
+
+.footer {
+  padding: 1rem;
+}
+
+.dots {
+  margin-left: auto;
+  font-size: 25px;
+  margin-top: 0.5rem;
+  padding-right: 1rem;
+  
+}
